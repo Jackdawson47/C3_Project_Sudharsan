@@ -73,7 +73,7 @@ class RestaurantTest {
 
     @Test
     public void when_names_of_items_are_given_it_should_return_total_order_value () {
-       int totalOderValue = restaurant.orderValue("Sweet corn soup");
+       int totalOrderValue = restaurant.orderValue("Sweet corn soup");
     }
 
 }
