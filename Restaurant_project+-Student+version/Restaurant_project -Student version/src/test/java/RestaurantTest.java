@@ -70,6 +70,10 @@ class RestaurantTest {
     }
 
    // you need to add another method that returns the order value, given the name of the items in <String> format.
-   
+
+    @Test
+    public void when_names_of_items_are_given_it_should_return_total_order_value () {
+       int totalOderValue = restaurant.orderValue("Sweet corn soup");
+    }
 
 }
